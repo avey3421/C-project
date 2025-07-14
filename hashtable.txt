@@ -1,0 +1,1 @@
+<enter a number per line, each corresponding to a value in the hashtable>
