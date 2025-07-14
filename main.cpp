@@ -1,12 +1,12 @@
 #include <iostream>
 #include "Graph.h"
-#include "Graph.cpp"
+/*#include "Graph.cpp"
 #include "Hashtable.cpp"
 #include "maxheapimplementation.cpp"
 #include "minheapimplementation.cpp"
 #include "avltreeimplementation.cpp"
 #include "nodeavlimplementation.cpp"
-
+*/
 #include "Hashtable.h"
 #include <iostream>
 #include <fstream>
