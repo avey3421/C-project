@@ -1,0 +1,5 @@
+<enter 3 numbers per line, the first number corresponds to the number of the first node, the second number corresponds to the number of the second node 
+and the third corresponds to the weight of their connecting edge>
+<for example 1 2 1 would mean, add the node with number 1 and the node with number 2 and add an edge with weight 1 that connects these 2 nodes>
+<if at least 1 of the nodes already exists then only the non existent node with be added along with the edge or if both nodes already exist 
+only the connecting edge will be added>
