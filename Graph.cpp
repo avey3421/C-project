@@ -13,12 +13,10 @@ void Graph::insertEdge(int id1, int id2, int weight) {
 			x1=1;
 			x=nodes[i];                  // x is a new node i create in main so it doesnt have all the data that the actual one has, will use this later in connected()
 			if (connected(nodes[i],y->getId())) return;
-			cout << x->getEdges()<<endl;
 		} else if (y->getId() == nodes[i]->getId()) {
 			y1=1;
 			y=nodes[i];
 			if (connected(nodes[i],x->getId())) return;
-            cout << y->getEdges()<<endl;
 		}
 	}
 	Edge *temp = new Edge(x,y,weight);
@@ -30,11 +28,9 @@ void Graph::insertEdge(int id1, int id2, int weight) {
 		if (x1==0) {   // if i didnt find them in the previous search theyre new nodes, save them in the nodes array since the pointers
 			// will be deleted
 			nodes[numNodes++]=x;
-			cout << x->getEdges()<<endl;
 		}
 		if(y1==0) {
 			nodes[numNodes++]=y;
-			cout << x->getEdges()<<endl;
 		}
 	}
 }
