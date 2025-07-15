@@ -40,6 +40,7 @@ void Hashtable::build_hashtable(const char *filename) {
 	ifstream file;
 	file.open(filename,ios::in);
 	if (!file.is_open()) {
+		return;
 	}
 	int data;
 	while (file >> data) {
